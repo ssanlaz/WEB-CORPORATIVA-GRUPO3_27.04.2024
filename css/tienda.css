@@ -1,0 +1,136 @@
+* {
+    color: #333;
+}
+.titleBox {
+    background-color: white;
+    position: fixed;
+}
+section {
+    font-family: "Sedan", serif;
+    background-color: white;
+}
+input {
+    padding: 0 5px;
+}
+.grapeShop {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.box4 {
+    float: right;
+    height: 32px;
+}
+.subMenu {
+    display: flex;
+}
+.subMenu a * {
+    font-size: 20px;
+    color: #700215;
+    padding: 5px;
+}
+.grey {
+    background-color: rgb(243, 242, 242);
+    border: solid 1px #700215;
+}
+.containerProducts {
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.product {
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 380px;
+    width: 380px;
+}
+.product:hover {
+    box-shadow: 0 10px 20px #a8a8a8;
+}
+.product img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+}
+.product figure {
+    overflow: hidden;
+}
+.product:hover img {
+    transform: scale(1.2);
+}
+.infoProduct {
+    padding: 15px 30px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+.infoProduct button {
+    border: 2px solid #700215;
+    background-color: white;
+    color: #700215;
+    padding: 15px 10px;
+    cursor: pointer;
+    margin: 8px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.infoProduct button:hover {
+    background-color: #700215;
+    color: white;
+}
+.precio {
+    font-family: "Sedan", serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+.infoShop {
+    background-color: white;
+    color:#700215;
+    max-width: 100%;
+    min-height: 120px;
+}
+hr {
+    margin-top: 30px;
+}
+.envios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.envios li {
+    padding: 12px;
+}
+.webFooter p {
+    color: #333;
+}
+
+/*querries*/
+/*modificaciones por encima de 769px*/
+@media (min-width: 769px) {
+    .marginBox {
+        min-height: 110px;
+    }
+}
+/*modificaciones por debajo de 769px*/
+@media (max-width: 769px) {
+    .product {
+        max-width: 75%;
+    }
+    .infoProduct {
+        font-size: 13px;
+    }
+    .infoProduct button {
+        font-size: 12px;
+    }
+    .precio {
+        font-size: 15px;
+    }
+}

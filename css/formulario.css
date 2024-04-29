@@ -1,0 +1,81 @@
+* {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif
+}
+section {
+    display: flex;
+}
+.contacto {
+    min-width: 50%;
+}
+fieldset {
+    fieldset {
+    border:1px solid #999;
+    border-radius:15px;
+    box-shadow:0 0 10px #999;
+}
+legend {
+    background: #d5d5d5;
+    }
+}
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+.formulariof {
+    margin-top: 150px;
+    background-color: #e99eaf;
+}
+.boton {
+    position: relative;
+    margin: 10px 40px 15px 20px;
+    cursor: pointer;
+    font-size:10px;
+    color:white;
+    background-color:rgb(221, 144, 158);
+    border:15px;
+    width:120px;
+    height:25px;
+}
+.boton:hover {
+    font-style: italic;
+    background-color:#d5d5d5;
+    color: #72071a;
+} 
+.datosper {
+    background-color: #cd849a;
+}
+.formulario {
+    background-color: #72071a;
+    padding: 5px;
+}
+.comentarios {
+    background-color: #cd859a;
+}
+.tipovino {
+    background-color: #f9bac1;
+}
+.footerForm {
+    background-color: #d5d5d5;
+    font-size: 10px;
+    color: black;
+    text-align: right;
+}
+.proteccion {
+    text-decoration: none;
+    color:white ;
+    font-size: 10px;
+    background-color: #cd859a;
+}
+.proteccion:hover {
+    font-style: italic;
+    background-color:#d5d5d5;
+}
+
+/*querries*/
+@media (max-width: 768px) {
+    span {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

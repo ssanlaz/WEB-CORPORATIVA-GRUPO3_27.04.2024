@@ -1,0 +1,40 @@
+section * {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+.marginBox {
+    min-height: 120px;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+}
+.container {
+    font-size: 17px;
+    text-align: justify;
+}
+.container form {
+    padding-left: 5px;
+}
+.container input {
+    color: #333;
+}
+.container fieldset {
+    border-width: 10px;
+    padding: 15px 15px;
+    margin: 10px;
+}
+.container fieldset legend {
+    font-size: 25px;
+    font-family: cursive;
+}
+
+/*querries*/
+@media (max-width: 576px) {
+    form {
+        font-size: 13px;
+    }
+    .container {
+        font-size: 15px;
+    }
+}

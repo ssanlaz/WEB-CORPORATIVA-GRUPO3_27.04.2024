@@ -1,0 +1,35 @@
+section * {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+section {
+    padding: 0 15px 15px 15px;
+}
+.container {
+    font-size: 17px;
+    text-align: justify;
+}
+.subTitle {
+    padding: 30px 0 20px 0;
+}
+.fotos {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    padding: 15px;
+    max-width: 250px;
+    max-height: 250px;
+}
+img:hover {
+    transform: scale(1.2);
+}
+
+/*querries*/
+@media (max-width: 576px) {
+    .container {
+        font-size: 15px;
+    }
+}
